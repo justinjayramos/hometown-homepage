@@ -1,8 +1,23 @@
+@media (max-width: 768px) {
+    .place-container,
+    #officials-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #header-caption,
+    .caption {
+        width: 90%;
+        max-width: 400px;
+    }
+}
+
 body {
     margin: 0;
     text-align: center;
     background-image: linear-gradient(#dad7cd, #588157);
     font-family: "Cantora One", sans-serif;
+    font-display: swap;
     color: #d8f3dc;
     
 }
@@ -17,7 +32,7 @@ header {
 
 main{
     margin: 5px 0 10px;
-    padding:5px 0 10px
+    padding:5px 0 10px;
 }
 
 footer {
@@ -50,23 +65,20 @@ footer {
     width: 300px;
     color: #344e41;
     background-color: #d8f3dc;
-    padding: 20px 20px;
+    padding: 20px;
 }
 
 .place-img {
     width: 120px;
-    height: 120px;
-    border-radius: 50%;
     padding: 5px;
-    margin: 5px
+    margin: 5px;
 }
 
 .officials-img {
     width: 120px;
-    height: 120px;
 }
 
-#city, h2, h3{
+#city, h2, h3 {
     text-transform: uppercase;
 }
 
